@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    font-family: 'open sans', sans-serif;
+}
+
+/* header */
+header{
+    background-image:url("../images/banner/banner2.png");
+    background-size: 100% 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+nav {
+    display: flex;
+    justify-content: end;
+    margin: 120px 150px;
+   
+    
+
+}
+
+nav li {
+    list-style: none;
+    text-align: end;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.nav-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+
+
+}
+
+.btn-contact {
+    
+    height: 64px;
+    width: 150px;
+    border-radius:10px;
+    margin-top: 10px;
+    position: relative;
+    float: right;
+    color:white;
+    background-color: #F15B22;
+    font-size: 20px;
+    padding: 21px 25px;
+    border: none;  
+}
+
+/* banner */
+.banner{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+    
+    
+}
+.banner li:before {
+    content: '✓';
+    color:orangered;
+    
+  }
+  .banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-right:150px ;
+    margin-bottom: 10px;
+    color: #151414;
+  }
+.banner-sub-title{
+    font-size:16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color:#444343;
+    
+
+}
+.tick-list{
+    color:#444343 ;
+    list-style: none;
+    margin-right: 200px;
+    
+}
+
+
